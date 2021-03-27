@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>An webpage for geek quizzers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>MENTAL MATHS QUIZ</h1>
+        <hr>
+        <h3 id="timeLeft"></h3>
+        <h2 id="q_no">Question No.</h2> <hr>
+        <h3 id="q_name">Question </h3>
+
+        <form class="option">
+            <input type="radio" value="A" name="options" class="opt">
+            <label for="A" id="opt1">A</label> <br>
+            <input type="radio" value="B" name="options" class="opt">
+            <label for="B" id="opt2">B</label><br>
+            <input type="radio" value="C" name="options" class="opt">
+            <label for="C" id="opt3">C</label> <br>
+            <input type="radio" value="D" name="options" class="opt">
+            <label for="D" id="opt4">D</label> <br>
+        </form>
+                    
+        <div id="action_buttons">
+        <button id="prev">PREVIOUS</button>
+        <button id="next">NEXT</button>
+        <button id="submit">SUBMIT</button>
+        </div>            
+        
+        <div class="complete">
+            <h1 id="greeting" style="color: white; font-size: larger;"></h1>
+            <h4 class="winningLine"></h4>
+        </div>
+
+        <div>
+        <h2 id="showName"></h2>    
+        <h2 id="showAge"></h2>
+        </div>
+
+        <script src="info.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
